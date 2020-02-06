@@ -9,7 +9,8 @@ import {Recipe} from "../recipe.model";
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simple a test', 'https://www.veganricha.com/wp-content/uploads/2019/12/Sticky-Sesame-Cauliflower-veganricha-5837-2.jpg')
+    new Recipe('A Test Recipe', 'This is simple a test', 'https://www.veganricha.com/wp-content/uploads/2019/12/Sticky-Sesame-Cauliflower-veganricha-5837-2.jpg'),
+    new Recipe('B Test Recipe', 'This is simple b test', 'https://www.veganricha.com/wp-content/uploads/2019/12/Sticky-Sesame-Cauliflower-veganricha-5837-2.jpg')
 
 
   ];
